@@ -9,4 +9,14 @@ body {
     color: #3f629b;
 }
 
+body.light-mode {
+    color: #3f629b;
+    background-color: #fff;
+}
+
+body.dark-mode {
+    color: #fff;
+    background-color: #3f629b;
+}
+
 

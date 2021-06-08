@@ -13,22 +13,24 @@
                     class="fa fa-lg fa-linkedin mx-3 mt-10 cursor-pointer" aria-hidden="true"></i></a>
             <a href="https://stackoverflow.com/users/8917402/adhs91" target="_blank">
                 <i class="fa fa-lg fa-stack-overflow mx-3 mt-10 cursor-pointer"></i></a>
+                <i class="fa fa-moon-o" (click)="darkMode=!darkMode" [ngClass]="darkMode ? 'dark-mode' : 'light-mode'"></i>
         </div>
     </div>
     <div class="mt-10 flex flex-col text-xl">
         <div>
             <div>Now:</div>
             <div class="mt-5">
-                <div class="text-xl dark-theme-blue underline"><a href="https://www.linkedin.com/in/adhithyan-s-275323b4/" target="_blank">Frontend @L&T Infotech</a></div>
+                <div class="text-xl dark-theme-blue">
+                    <a href="https://www.linkedin.com/in/adhithyan-s-275323b4/" class="underline" target="_blank">Frontend @L&T Infotech</a></div>
                 <div>Nov 2020 - Present</div>
             </div>
             <div class="mt-5">
-                <div class="text-xl dark-theme-blue underline">Building <a href="https://eclaps.in" target="_blank"> e claps</a></div>
+                <div class="text-xl dark-theme-blue">Building <a href="https://eclaps.in" target="_blank" class="underline"> e claps</a></div>
                 <div>An online contest  platform for kids</div>
             </div>
             <div class="mt-5">
-                <div class="text-xl dark-theme-blue underline">Building <a href="https://github.com/adhispace/book-kart"
-                        target="_blank"> book kart</a></div>
+                <div class="text-xl dark-theme-blue">Building <a href="https://book-kart.vercel.app/"
+                        target="_blank" class="underline"> book kart</a></div>
                 <div>An app to search, view books. Built upon google books api</div>
             </div>
         </div>
@@ -36,9 +38,9 @@
             <div class="mt-10">Past:</div>
             <div class="mt-5">
                 <span class="text-xl font-thin">Work:</span>
-                <span class="text-lg ml-5 underline cursor-pointer">RNTBCI,</span>
-                <span class="text-lg underline cursor-pointer"> CTS,</span>
-                <span class="text-lg underline cursor-pointer"> IBM</span>
+                <span class="text-lg ml-5 underline cursor-pointer"><a href="https://group.renault.com/en/" target="_blank">RNTBCI,</a></span>
+                <span class="text-lg underline cursor-pointer ml-2"><a href="https://www.cognizant.com/" target="_blank">CTS,</a></span>
+                <span class="text-lg underline cursor-pointer ml-2"><a href="https://www.ibm.com/" target="_blank">IBM</a></span>
             </div>
         </div>
         <div>
